@@ -1,0 +1,6 @@
+<h2>Recompensas Disponíveis</h2>
+<ul>
+    {% for recompensa in recompensas %}
+        <li>{{ recompensa.nome }} - {{ recompensa.pontos_necessarios }} pts</li>
+    {% endfor %}
+</ul>

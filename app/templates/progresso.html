@@ -1,0 +1,6 @@
+<h2>Progresso de Leitura</h2>
+<ul>
+    {% for p in progresso %}
+        <li>{{ p.estudante }} - {{ p.livro }} ({{ p.status }})</li>
+    {% endfor %}
+</ul>

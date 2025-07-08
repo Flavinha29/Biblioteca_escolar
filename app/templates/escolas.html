@@ -1,0 +1,6 @@
+<h2>Lista de Escolas</h2>
+<ul>
+    {% for escola in escolas %}
+        <li>{{ escola.nome }} - {{ escola.cidade }}</li>
+    {% endfor %}
+</ul>

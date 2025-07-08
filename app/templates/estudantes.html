@@ -1,0 +1,6 @@
+<h2>Lista de Estudantes</h2>
+<ul>
+    {% for estudante in estudantes %}
+        <li>{{ estudante.nome }} - {{ estudante.turma }} - {{ estudante.pontos_leitura }} pts</li>
+    {% endfor %}
+</ul>

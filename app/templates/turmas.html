@@ -1,0 +1,6 @@
+<h2>Lista de Turmas</h2>
+<ul>
+    {% for turma in turmas %}
+        <li>{{ turma.nome }} - {{ turma.ano_escolar }}º - {{ turma.turno }} ({{ turma.professor_responsavel }})</li>
+    {% endfor %}
+</ul>

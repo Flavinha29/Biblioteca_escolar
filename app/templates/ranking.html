@@ -1,0 +1,6 @@
+<h2>Ranking de Leitura</h2>
+<ul>
+    {% for r in ranking %}
+        <li>{{ r.estudante }} - {{ r.pontos_totais }} pts (Turma: {{ r.turma }})</li>
+    {% endfor %}
+</ul>

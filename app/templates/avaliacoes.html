@@ -1,0 +1,6 @@
+<h2>Avaliações de Leitura</h2>
+<ul>
+    {% for avaliacao in avaliacoes %}
+        <li>{{ avaliacao.estudante }} leu {{ avaliacao.livro }} - Nota: {{ avaliacao.nota }}</li>
+    {% endfor %}
+</ul>

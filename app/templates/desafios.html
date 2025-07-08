@@ -1,0 +1,6 @@
+<h2>Desafios de Leitura</h2>
+<ul>
+    {% for desafio in desafios %}
+        <li>{{ desafio.titulo }} ({{ desafio.data_inicio }} a {{ desafio.data_fim }})</li>
+    {% endfor %}
+</ul>

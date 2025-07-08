@@ -1,0 +1,6 @@
+<h2>Recomendações de Leitura</h2>
+<ul>
+    {% for r in recomendacoes %}
+        <li>{{ r.estudante }} → {{ r.livro }} ({{ r.criterio }})</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,6 @@
+<h2>Empréstimos</h2>
+<ul>
+    {% for emprestimo in emprestimos %}
+        <li>{{ emprestimo.estudante }} - {{ emprestimo.livro }} ({{ emprestimo.data_emprestimo }} a {{ emprestimo.data_devolucao }})</li>
+    {% endfor %}
+</ul>
